@@ -1,7 +1,7 @@
 let img;
 let detector;
 let video;
-let detections;
+let detections= [];
 
 const Handler = (error, results) => {
     if (error) {
@@ -25,6 +25,7 @@ function setup() {
 
 function draw() {
     image(video, 0, 0);
+
     detections.forEach((detection) => { 
         stroke(0, 255, 0);
         strokeWeight(4);
