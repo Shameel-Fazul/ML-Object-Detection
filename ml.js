@@ -1,7 +1,10 @@
-let img;
-let detector;
 let video;
-let detections= [];
+let detector;
+let detections = [];
+
+function preload() {
+    detector = ml5.objectDetector('cocossd');
+}
 
 const Handler = (error, results) => {
     if (error) {
@@ -9,10 +12,6 @@ const Handler = (error, results) => {
     }
     detections = results;
     detector.detect(video, Handler);
-}
-
-function preload() {
-    detector = ml5.objectDetector('cocossd');
 }
 
 function setup() {
