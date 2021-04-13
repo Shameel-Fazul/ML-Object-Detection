@@ -4,8 +4,11 @@
   "description": "Object detection using machine learning with ml5.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ml": "node index"
   },
   "author": "Shameel Fazul",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
