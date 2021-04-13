@@ -15,7 +15,7 @@ const Handler = (error, results) => {
 }
 
 function setup() {
-    createCanvas(840, 680);
+    createCanvas(1040, 1080);
     video = createCapture(VIDEO);
     video.size(1040, 1080);
     video.hide();
