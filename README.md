@@ -1,2 +1,2 @@
 # ML-Object-Detection
-Object detection using machine learning
+Object detection using machine learning with Coco-SSD
