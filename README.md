@@ -1,2 +1,2 @@
-# ML-Object-Detection
-Object detection using machine learning
+# Computer Vision
+Object detection using supervised machine learning
